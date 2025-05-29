@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding:20px;
+            color:#333;
+        }
+
+        h1{
+            color:#2c3e50;
+            text-align: center;
+            background-color: #3498db;
+        }
+
+        h2{
+            color:#3498db;
+            border-bottom:2px solid #3498db;
+            padding-bottom: 5px
+        }
+
+        h3{
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom:5px ;
+        }
+
+        h4{
+            color:#3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        
+        }
+
+        section{
+            margin-bottom:30px ;
+        }
+
+        .image{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow:visible;
+            margin-bottom: 30px;
+            float: right;
+        }
+        .image img{
+            display: grid;
+            border: 5px solid blue;
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+            margin-top: 85%;
+        }
+        /*responsive design*/
+        @media (max-width:600px){
+            body{
+                padding:10px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="image">
+        <img src="photocv.jpg" alt="ma photo">
+    </div>
+        <h1><strong>CURRICULUM VITAE</strong></h1>
+
+    <section id="ETAT CIVIL">
+        <h2>ETAT CIVIL</h2>
+        <ul>
+            <li>Nom: MBOLLE</li>
+            <li>Prenom: jules fils</li>
+            <li>Date de naissance : 1 mars 2005</li>
+            <li>Lieu : A yaounde</li>
+            <li>Nationalite : camerounaise</li>
+            <li>Email: filsmbolle@gmail.com</li>
+            <li>telephone: 682544913</li>
+        </ul>
+    </section>
+
+    <section id="CURSUS SCOLAIRE">
+        <h3>CURSUS SCOLAIRE</h3>
+        <ol>
+        <li>2015-2016 : CEP</li>
+        <li>2019-2020 : BEPC</li>
+        <li>2021-2022 :PROBATOIRE C</li>
+        <li>2022-2023 : BACCALAUREAT C</li>
+        <li>2023-2024 :PHYSIQUE</li>
+        <li>2024-2025 :INFORMATIQUE</li>
+        </ol>
+    </section>
+
+    <section id="EXPERIENCE PROFESSIONNELLE">
+        <h4>EXPERIENCE PROFESSIONNELLE</h4>
+        <p>CEO de <em>SMARTWATCH</em></p>
+    </section>
+</body>
+</html>
